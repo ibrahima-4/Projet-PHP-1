@@ -1,0 +1,26 @@
+/* Style pour les boutons */
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Notifications */
+#notification {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Survol des lignes du tableau */
+table tr:hover {
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,31 @@
+Gestion-De-Bibliotheque/
+│
+├── img/                        # Dossier pour les images
+│   └── logo.avif               # Logo ou autres images
+│
+├── includes/                   # Fichiers partagés ou inclus
+│   ├── config.php              # Connexion à la base de données
+│   ├── dashboard.php           # Tableau de bord partagé
+│   ├── footer.php              # Pied de page partagé
+│   ├── functions.php           # Fonctions globales
+│   ├── header.php              # En-tête partagé
+│
+├── pages/                      # Pages spécifiques au bibliothécaire
+│   ├── gestion_emprunts.php    # Gestion des emprunts
+│   ├── gestion_livres.php      # Gestion des livres
+│   ├── rapport_emprunts.php    # Rapport des emprunts et livres indisponibles
+│
+├── sql/                        # Scripts SQL pour organisation
+│   └── gestion_bibliotheque.sql # Script de la base de données
+│
+├── utilisateurs/               # Pages liées à la gestion des utilisateurs
+│   ├── auth.php                # Vérification d'authentification
+│   ├── connexion.php           # Page de connexion
+│   ├── dashboard.php           # Tableau de bord des utilisateurs
+│   ├── deconnexion.php         # Déconnexion
+│   ├── inscription.php         # Inscription
+│
+├── erreur_acces.php            # Page d’erreur en cas d'accès interdit
+├── index.php                   # Page d'accueil principale (connexion ou redirection)
+
+Question: mettre le sql des livres 
